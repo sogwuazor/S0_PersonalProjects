@@ -1,0 +1,64 @@
+{
+  "columns": [
+    {
+      "name": "<input type='checkbox' class='selector' aria-label='select all in grid'/>",
+      "id": "selector",
+      "aria-label": "select all",
+      "width": 20
+    },
+    {
+      "name": "id",
+      "id": "_id",
+      "aria-label": "identification information",
+      "width": 20,
+      "sortable": false,
+      "min-width": 20,
+      "resizable": false
+    },
+    {
+      "name": "Title",
+      "id": "title",
+      "aria-label": "Novel title",
+      "width": 100,
+      "sortable": false,
+      "min-width": 75,
+      "resizable": false
+    },
+    {
+      "name": "Author",
+      "id": "author",
+      "aria-label": "Author",
+      "width": 100,
+      "sortable": false,
+      "min-width": 75,
+      "resizable": false
+    },
+    {
+      "name": "Last Chapter Read",
+      "id": "lastRead",
+      "aria-label": "lat chapter read",
+      "width": 50,
+      "sortable": false,
+      "min-width": 25,
+      "resizable": false
+    },
+    {
+      "name": "Created On",
+      "id": "createdDt",
+      "aria-label": "Created on",
+      "width": 75,
+      "sortable": false,
+      "min-width": 50,
+      "resizable": false
+    },
+    {
+      "name": "Modified On",
+      "id": "lastModifiedDt",
+      "aria-label": "Modified On",
+      "width": 75,
+      "sortable": false,
+      "min-width": 50,
+      "resizable": false
+    }
+  ]
+}

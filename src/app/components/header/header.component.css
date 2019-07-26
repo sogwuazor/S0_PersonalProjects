@@ -1,0 +1,32 @@
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: #000;
+  color: #ffffff;
+}
+
+.imageContainer {
+  background: darkred;
+  color: #fff;
+  padding: 0 10px;
+}
+
+nav.app-navigator ul {
+  list-style: none;
+}
+
+nav.app-navigator ul li {
+  display: inline;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: sub;
+}
+
+.app-navigator ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}

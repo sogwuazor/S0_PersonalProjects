@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+/*root styles variables should be added here to be accessible to other app features*/
+:root {
+  --theme-color-1: #acacac;
+  --background-doc-color: #000000;
+  --background-doc-color-alt: #FFFFFF;
+}
+
+body {
+  margin: 0;
+}
