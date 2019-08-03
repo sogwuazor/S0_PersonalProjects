@@ -1,13 +1,21 @@
 <div class="library-container">
+  <div class="banner">
+    <div class="banner-header title">
+      The Library of Doom!
+    </div>
+    <div class="banner-content description">
+      The personal library of our sovereign Lord {{user}}.
+    </div>
+  </div>
   <div class="controls">
     <div class="left">
-      Welcome {{user}} to the Library of Doom
+      {{user}}'s Collection
     </div>
     <div class="right">
       <div class="btn-group novel-controls">
-        <button class="btnAdd button-primary">Add Book</button>
-        <button class="btnRemove button-warning">Delete Book(s)</button>
-        <button class="btnUpdate button-information">Edit Book</button>
+        <button class="btnAdd default">Add Book</button>
+        <button class="btnRemove forbidden">Delete Book(s)</button>
+        <button class="btnUpdate warning">Edit Book</button>
       </div>
       <div class="btn-group view-controls">
         <button class="btnToGrid">Grid</button>
@@ -16,7 +24,6 @@
     </div>
   </div>
   <div class="library_render_tools">
-    <!--<div class="libraryGrid"></div>-->
-    <app-base-grid-component></app-base-grid-component>
+    <app-card-field [cards]="cards"></app-card-field>
   </div>
 </div>

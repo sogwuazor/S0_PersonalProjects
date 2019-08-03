@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {CardItem} from '../../widgets/card/card-item';
+import {CardService} from '../../widgets/card/card.service';
 
 @Component({
   selector: 'app-library',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LibraryComponent implements OnInit {
   user = 'Steven Ogwuazor';
-  constructor() { }
+  cards:CardItem[];
+
+  constructor(private cardService:CardService) { }
 
   ngOnInit() {
+    this.cards = this.cardService.getCards();
   }
-
 }

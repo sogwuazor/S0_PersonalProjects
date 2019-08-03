@@ -1,0 +1,73 @@
+.library-container {
+  font-family: sans-serif;
+}
+
+.library-container .banner {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /*not sure what is needed here*/
+  height: 150px;
+  width: 100%;
+  max-width: 100%;
+  background: #000;
+  color: #400006;
+  overflow: hidden;
+}
+
+.library-container .banner-header {
+  background: white;
+  color: #000;
+  height: 100px;
+  font-size: 20pt;
+  text-align: center;
+  padding-top: 50px;
+  font-family: Bahnschrift;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.library-container .banner-content {
+  height: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: normal;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  color: grey;
+  border: 1px dashed #acacac;
+  background: white;
+  padding: 20px 0 0 10px;
+}
+
+.library-container .controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+  /*height: 25px;*/
+}
+
+.library-container .controls .right{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+.library-container .library_render_tools {
+  display: block;
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 5px;
+}

@@ -1,0 +1,12 @@
+.paper-card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px #7f7d7f;
+  -moz-box-shadow: 2px 2px #7f7d7f;
+  box-shadow: 2px 2px #7f7d7f;
+  z-index: 10;
+  font-size: 10pt;
+  font-family: "Century Gothic";
+}

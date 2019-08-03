@@ -1,0 +1,51 @@
+.paper-card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px #7f7d7f;
+  -moz-box-shadow: 2px 2px #7f7d7f;
+  box-shadow: 2px 2px #7f7d7f;
+  z-index: 10;
+  font-size: 10pt;
+  font-family: "Century Gothic";
+}
+
+.paper-card .paper-title{
+  font-weight: bold;
+  padding: 10px;
+  font-style: italic;
+  border-bottom: 1px solid black;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  max-height: 35px;
+  height: 30px;
+}
+
+.paper-card .paper-img-container {
+  height: 150px;
+  max-width: 80%;
+  margin: 5px auto;
+  content: '';
+  border: 1px solid black;
+}
+
+.paper-card .paper-meta-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 10px;
+  font-size: 10pt;
+  font-family: "Times New Roman";
+  overflow: hidden;
+}
+
+.paper-card .paper-meta-container .paper-meta {
+  max-width: 95%;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-wrap: none;
+}
