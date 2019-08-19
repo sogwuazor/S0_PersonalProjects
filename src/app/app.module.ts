@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LibraryComponent } from './pages/library/library.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CardComponent} from './components/card/card.component';
 
 //odd components not quite pages maybe better to call them template objects
 import {PaperCardComponent} from './widgets/card/paperCard.component';
@@ -20,6 +21,8 @@ import {CardService} from './widgets/card/card.service';
     HeaderComponent,
     HomeComponent,
     LibraryComponent,
+    FooterComponent,
+    CardComponent
     FooterComponent,
     CardFieldComponent,
     PaperCardComponent,
