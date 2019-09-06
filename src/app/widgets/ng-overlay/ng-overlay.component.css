@@ -1,0 +1,93 @@
+.overlay-background {
+	background: #585858;
+	opacity: 40%;
+	display: inline-block;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.overlay {
+	display: none;
+	-webkit-transition: all ease-in-out 4ms;
+	-moz-transition: all ease-in-out 4ms;
+	-ms-transition: all ease-in-out 4ms;
+	-o-transition: all ease-in-out 4ms;
+	transition: all ease-in-out 4ms;
+	border: 1px solid black; /*todo: might need to change the color here*/
+}
+
+.overlay.activated {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-height: 200px;
+	min-width: 200px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.overlay .title_bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 40px;
+	flex-grow: 1;
+	overflow: hidden;
+}
+
+.overlay .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: auto;
+	flex-grow: 2;
+}
+
+.overlay .footer_bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	min-height: 45px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	flex-grow: 1;
+	width: 100%;
+}
+
+.overlay .ovrly_btn {
+	color: #000;
+	float: right;
+	height: 20px;
+	line-height: 15px;
+	margin-left: 5px;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.overlay .btn {
+	background: #fff;
+	border: 1px solid black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	min-width: 15px;
+}
+
+.overlay .btn_primary {
+	background-color: darkred;
+	color: #fff;
+}

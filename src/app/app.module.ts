@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LibraryComponent } from './pages/library/library.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CardComponent} from './components/card/card.component';
+import { NgOverlayComponent } from './widgets/ng-overlay/ng-overlay.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardComponent} from './components/card/card.component';
     HomeComponent,
     LibraryComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
+    NgOverlayComponent
   ],
   imports: [
     BrowserModule,
