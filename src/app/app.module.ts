@@ -1,13 +1,13 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { HomeComponent } from './pages/home/home.component';
-import { LibraryComponent } from './pages/library/library.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { CardComponent} from './components/card/card.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {HeaderComponent} from './components/header/header.component';
+import {HomeComponent} from './pages/home/home.component';
+import {LibraryComponent} from './pages/library/library.component';
+import {FooterComponent} from './components/footer/footer.component';
+import {CardComponent} from './components/card/card.component';
 
 //odd components not quite pages maybe better to call them template objects
 import {PaperCardComponent} from './widgets/card/paperCard.component';
@@ -22,7 +22,7 @@ import {CardService} from './widgets/card/card.service';
     HomeComponent,
     LibraryComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
     FooterComponent,
     CardFieldComponent,
     PaperCardComponent,
@@ -36,4 +36,5 @@ import {CardService} from './widgets/card/card.service';
   providers: [CardService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

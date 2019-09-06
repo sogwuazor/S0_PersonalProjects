@@ -1,6 +1,8 @@
 import {Injectable} from '@angular/core';
 import sampleData from '../../configurations/testDataForGrid.json';
 
+//const sampleData = {data: []};
+
 import {PaperCardComponent} from './paperCard.component';
 import {CardItem} from './card-item';
 
@@ -23,7 +25,7 @@ export class CardService {
     let _this = this;
     let cardCount = 10;
 
-    if (!sampleData.data) {
+    if (!sampleData) {
       return [];
     }
     if (sampleData.data.length < cardCount) {

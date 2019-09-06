@@ -53,7 +53,7 @@
   /*height: 25px;*/
 }
 
-.library-container .controls .right{
+.library-container .controls .right {
   flex-grow: 1;
   display: flex;
   flex-direction: row;
